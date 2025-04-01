@@ -2,12 +2,46 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Isaac's Links</title>
+    <style>
+      html {
+        min-height: 100%;
+            }   
+      body {
+        min-height: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(225deg, #0088e9, #009ff4, #00b5fb, #00cbff, #00e0ff, #00d6ff, #00aeff, #0082fb, #0053e7, #0b0ebe);
+            }
+      a {
+        color: rgba(255, 255, 255, 1.0);
+        }
+      .avatar-image {
+          width: 128px;
+          height: 128px;
+          object-fit: cover;
+          border-radius: 128px;
+                    }
+      .thumbnail {
+          width: 48px;
+          height: 48px;
+          object-fit: cover;
+          border-radius: 48px;
+                    }
+      .main-container {
+          max-width: 640px;
+          margin: auto;
+                      }             
+      .link {
+          background-color: rgba(180, 176, 219, 0.479);
+            }               
+    </style>
   </head>
   <body>
     <div class="main-container">
-        <div class ="image row">
-          <img src="/casual headshot.jpg" alt="Isaac Frank headshot"
+        <div class="image row">
+          <img class="avatar-image" src="/casual headshot.jpg" alt="Isaac Frank headshot">
         </div>
         
         <div class = "name-row">
@@ -38,35 +72,35 @@
 
         <div class = "links-row">
           <div class = "link">
-            <img src = "/ThunderBolt.jpg">
+            <img class="thumbnail" src="/ThunderBolt.jpg" alt="Thunder Logo">
             <a href="https://www.clstrikers.com/thunder/" target = "_blank" >
               The WGI percussion ensemble I currently direct (and the website I designed)
             </a>
           </div>
 
           <div class = "link">
-            <img src = "/Red ThunderBolt.jpg">
+            <img class="thumbnail" src="/Red ThunderBolt.jpg" alt="Red Thunder Logo">
             <a href="https://www.instagram.com/clthunder" target = "_blank" >
               Instagram account that I run and create content for
             </a>
           </div>
 
           <div class = "link">
-            <img src = "/gainsystems_logo.jpeg">
+            <img class="thumbnail" src="/gainsystems_logo.jpeg" alt="GAINSystems Logo">
             <a href="https://www.youtube.com/watch?v=sXC7GSZ6gvU" target = "_blank" >
               A webinar that I led with the co-founder of GAINS
             </a>
           </div>
 
           <div class = "link">
-            <img src = "/chicago_bears_logo.png">
+            <img class="thumbnail" src="/chicago_bears_logo.png" alt="Chicago Bears Logo">
             <a href="https://www.instagram.com/chicagobearsdrumline/" target = "_blank" >
               Catch me on Game Days with the Chicago Bears Drumline
             </a>
           </div>
 
           <div class = "link">
-            <img src = "/snare drum.png">
+            <img class="thumbnail" src="/snare drum.png" alt="AI Snare Drum">
             <a href="https://www.youtube.com/watch?v=JpmQUe1qG2s" target = "_blank" >
               Believe it or not, I'm also a classically trained percussionist
             </a>
@@ -74,7 +108,7 @@
         </div>
 
         <div class = "link">
-          <img src = "/marimba.png">
+          <img class="thumbnail" src="/marimba.png" alt="AI Marimba">
           <a href="https://www.youtube.com/watch?v=Zcv0LDGrvcY" target = "_blank" >
             One of my favorite pieces from my time directing the WWS HS percussion section
           </a>
